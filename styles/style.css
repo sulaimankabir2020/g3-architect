@@ -87,7 +87,7 @@ nav li>a {
 
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* /\/\/\/\/\\/\/\/\/\/\/\/\ */
@@ -95,12 +95,30 @@ main {
     display: flex;
     align-items: center;
 }
-.team-img-container{
+
+.team-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.team-content{
+
+.team-content {
     padding-left: 70px;
     padding-right: 70px;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    text-align: center;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem ;
+    color: #424242;
 }
